@@ -34,23 +34,16 @@ Admin Panel: http://127.0.0.1:8000/admin/
 
 # API Endpoints
 Method	Endpoint	Description
-POST	/api/register/	Register a new vendor
 
-POST	/api/token/	Obtain JWT token
-
-POST	/api/token/refresh/	Refresh JWT token
-
-GET	/api/shops/	List all vendor's shops
-
-POST	/api/shops/	Create a new shop
-
-GET	/api/shops/<id>/	Retrieve a specific shop
-
-PUT	/api/shops/<id>/	Update shop details
-
-DELETE	/api/shops/<id>/	Delete a shop
-
-GET	/api/nearby-shops/?lat=<latitude>&lon=<longitude>&radius=<km>	Search nearby shops
+POST:	/api/register/	           Register a new vendor
+POST:	/api/token/	               Obtain JWT token
+POST:	/api/token/refresh/	       Refresh JWT token
+GET:	/api/shops/	               List all vendor's shops
+POST:	/api/shops/	               Create a new shop
+GET:	/api/shops/<id>/	         Retrieve a specific shop
+PUT:	/api/shops/<id>/	         Update shop details
+DELETE:	/api/shops/<id>/	       Delete a shop
+GET:	/api/nearby-shops/?lat=<latitude>&lon=<longitude>&radius=<km>	Search nearby shops
 
 # Project Structure
 vendor-shop-management/
